@@ -1,0 +1,108 @@
+/*
+    WEB BY FARWALDEV
+*/
+
+html, * {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #E5CFF7;
+  height: 100vh;
+}
+
+header {
+  padding: 2% 0;
+}
+
+header nav {
+  position: relative;
+  padding: 0 2%;
+  font-family: 'Gloock', serif;
+  font-weight: 400;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header nav ul li a {
+  display: block;
+  padding: 2px;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #9D76C1;
+}
+
+.image-profile {
+  position: relative;
+  width: 850px;
+  height: 430px;
+  overflow: hidden;
+  /*box-shadow: -15px 15px rgba(0,0,0,1);*/
+}
+
+.image-profile img {
+  width: 380px;
+}
+
+.info-profile {
+  position: relative;
+}
+
+main {
+  position: relative;
+  padding: 3% 0 0 0;
+}
+
+main article .wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 0 10%;
+}
+
+main article h1 {
+  font-family: 'Gloock', serif;
+  font-weight: 400;
+  font-size: 2.8em;
+  color: #713ABE;
+  margin: 120px 0 0 -60px;
+  text-shadow: .1px .3px rgba(0,0,0,1);
+  z-index: 1;
+}
+
+main article p {
+  padding: 3% 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  color: #713ABE;
+}
+
+main article ul {
+  list-style: none;
+  padding: 3% 0 0 0;
+}
+
+main article ul li {
+  display: inline-flex;
+}
+
+main article ul li a {
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  font-family: 'Gloock', serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  color: #5B0888;
+}
+
+main article ul li a:hover {
+  transform: scale(1.1);
+}
